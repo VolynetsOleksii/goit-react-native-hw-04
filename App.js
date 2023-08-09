@@ -2,6 +2,7 @@ import { StyleSheet, View, Image } from "react-native";
 import PostsScreen from "./Screens/PostsScreen/PostsScreen";
 import RegistrationScreen from "./Screens/RegistrationScreen/RegistrationScreen";
 import LoginScreen from "./Screens/LoginScreen/LoginScreen";
+import CreatePostsScreen from "./Screens/CreatePostsScreen/CreatePostsScreen";
 import { useFonts } from "expo-font";
 import React, { useState } from "react";
 
@@ -22,7 +23,7 @@ export default function App() {
         resizeMode="cover"
         style={styles.image}
       />
-      <RegistrationScreen />
+      <CreatePostsScreen />
     </View>
   );
 }
